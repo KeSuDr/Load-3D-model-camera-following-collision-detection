@@ -340,7 +340,7 @@ int main()
     ResetGame(); // Call this to populate items, reset score, etc.
     currentState = GameState::PLAYING; // Start immediately
     std::cout << "--- Game Started! ---" << std::endl;
-    std::cout << "Collect all " << totalItems << " red cubes." << std::endl;
+    std::cout << "Collect all " << totalItems << " red cars." << std::endl;
     std::cout << "Avoid the gray obstacles!" << std::endl;
     std::cout << "Hit the purple pads to jump!" << std::endl; // New message
     std::cout << "Hit the cyan pads to teleport!" << std::endl; // NEW message
